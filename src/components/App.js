@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import SearchBar from './SearchBar';
-import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 import useVideos from '../hooks/useVideos';
@@ -26,7 +25,7 @@ const App = () => {
         </div>
     )
 
-          //setSelectedVideo(response.data.items[0]);    
+              
       };     
 
 
